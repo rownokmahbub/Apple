@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
         </div>
         <img
           src="assets/hero.svg"
-          className="w-full max-w-screen-sm mx-auto  md:w-auto lg:max-w-screen-xl"
+          className="w-full max-w-screen-sm mx-auto  md:w-auto lg:max-w-screen-lg"
           alt=""
         />
       </div>{" "}

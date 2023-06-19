@@ -5,6 +5,8 @@ import Hero2 from "./home/Hero2";
 import Iwatch from "./home/Iwatch";
 import Accessories from "./home/Accessories";
 import MacbookAir from "./home/MacbookAir";
+import Carousal from "./home/Carousal";
+import Article from "./home/Article";
 export default function Home() {
   return (
   
@@ -14,6 +16,8 @@ export default function Home() {
     <Hero2/>
     <Iwatch/>
     <Accessories/>
+    {/* <Carousal/> */}
+    <Article/>
   </>
   )
 }

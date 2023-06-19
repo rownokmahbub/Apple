@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 const Hero2 = () => {
@@ -21,7 +22,7 @@ const Hero2 = () => {
 
                
                 <img src="assets/subhero.svg"
-                     className="w-full max-w-screen-sm mx-auto  md:w-auto lg:max-w-screen-2xl" alt="subhero"/>
+                     className="w-full max-w-screen-sm mx-auto  md:w-auto lg:max-w-screen-lg" alt="subhero"/>
             </div>
         </div>
     )
