@@ -5,14 +5,14 @@ import { HiOutlineShoppingBag } from 'react-icons/hi2'
 
 const Header = () => {
   return (
-    <header className='bg-[#2C2C2C]'>
+    <header className=' sticky top-0 left-0 w-full bg-gradient-to-r from-slate-50/90 to-gray-50/90 z-50'>
         <div className="container mx-auto  flex justify-center items-center flex-wrap">
             <div className="px-10" >
                 <Link href='/'>
-                  <img src="./assets/iconwhite.svg" alt="icons" />
+                  <img src="./assets/icon.svg" alt="icons" />
                 </Link>
             </div>
-            <div className="flex justify-between items-center gap-7 text-sm text-white flex-wrap">
+            <div className="flex justify-between items-center gap-7 text-sm  flex-wrap">
                 <Link href='/about'>Store
                 </Link>
                 <Link href='/about'>Mac

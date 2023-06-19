@@ -2,19 +2,19 @@ import React from "react";
 
 const Accessories = () => {
   return (
-    <div className="container mx-auto  md:my-24">
-  <div className="grid grid-cols-1 md:grid-cols-2  items-center">
+    <div className="container mx-auto md:my-24 h-auto">
+  <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
       <div className="bg-[#FBFBFB] ">
         <div className="flex flex-col items-center justify-center px-4 mx-auto sm:max-w-xl md:max-w-full py-10 md:px-0">
           <div className="flex flex-col items-center max-w-2xl md:px-8">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl ">
               <div className=" flex flex-col justify-center items-center">
-                <p className="text-3xl font-semibold">IPhone 15 Pro</p>
+                <p className="text-3xl font-semibold">IPad</p>
                 <p className="text-xl pt-2">Lovable. Drawable. Magical.</p>
 
                 <div className="flex gap-10 mt-5">
-                  <p className="text-lg text-blue-500">Learn More</p>
-                  <p className="text-lg text-blue-500">Buy</p>
+                  <p className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">Learn More</p>
+                  <p className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">Buy</p>
                 </div>
               </div>
             </div>
@@ -26,17 +26,17 @@ const Accessories = () => {
           />
         </div>
       </div>
-      <div className="bg-black relative text-white ">
+      <div className="bg-black relative text-white">
         <div className="flex flex-col items-center justify-center px-4 mx-auto sm:max-w-xl md:max-w-full py-10 md:px-0">
           <div className="flex flex-col items-center max-w-2xl md:px-8">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl ">
               <div className=" flex flex-col justify-center items-center">
-                <p className="text-3xl font-semibold">IPhone 15 Pro</p>
-                <p className="text-xl pt-2">Pro. Beyond.</p>
+                <p className="text-3xl font-semibold">MacBook Pro</p>
+                <p className="text-xl pt-2">Supercharged by M2 Pro and M2 Max.</p>
 
                 <div className="flex gap-10 mt-5">
-                  <p className="text-lg text-blue-500">Learn More</p>
-                  <p className="text-lg text-blue-500">Buy</p>
+                  <p className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">Learn More</p>
+                  <p className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">Buy</p>
                 </div>
               </div>
             </div>
@@ -53,18 +53,18 @@ const Accessories = () => {
           <div className="flex flex-col items-center max-w-2xl md:px-8">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl ">
               <div className=" flex flex-col justify-center items-center">
-                <p className="text-3xl font-semibold">IPhone 15 Pro</p>
-                <p className="text-xl pt-2">Pro. Beyond.</p>
+                <p className="text-3xl font-semibold">HomePod</p>
+                <p className="text-xl pt-2">Profound sound.</p>
 
                 <div className="flex gap-10 mt-5">
-                  <p className="text-lg text-blue-500">Learn More</p>
-                  <p className="text-lg text-blue-500">Buy</p>
+                  <p className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">Learn More</p>
+                  <p className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">Buy</p>
                 </div>
               </div>
             </div>
           </div>
           <img
-            src="assets/macbook.svg"
+            src="assets/home.svg"
             className="w-full md:mx-auto max-h-[300px] object-cover"
             alt=""
           />
@@ -76,8 +76,8 @@ const Accessories = () => {
    
       <div class="flex flex-col items-center justify-between pt-10">
       <div className=" flex flex-col justify-center items-center text-white">
-              <p className="text-3xl font-semibold">IPhone 15 Pro</p>
-              <p className="text-xl pt-2">Pro. Beyond.</p>
+              <p className="text-3xl font-semibold">AirPods Pro</p>
+              <p className="text-xl pt-2">Up to 2x more Active <br /> Noise Cancellation.</p>
 
               <div className="flex gap-10 mt-5">
                 <p className="text-lg ">Learn More</p>
