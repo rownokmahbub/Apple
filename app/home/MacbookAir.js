@@ -3,7 +3,7 @@ import React from 'react'
 
 const MacbookAir = () => {
   return (
-    <div className='bg-[#F5F6F7] h-screen pt-20'>
+    <div className='bg-[#F5F6F7]  pt-20'>
     <div
         className="flex flex-col items-center justify-center ">
   

@@ -10,7 +10,7 @@ export default class Carousal extends Component {
       infinite: true,
       slidesToShow: 1,
       centerMode: true,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
       autoplay: true,
       autoplaySpeed: 3000,
       arrows:false,
