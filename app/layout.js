@@ -10,8 +10,8 @@ const poppins= Poppins({
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Next js app',
-  description: 'Next js is a powerful framework',
+  title: 'Apple Created BY Rownok Mahbub',
+  description: 'Apple website build with  Next js which a powerful framework',
 }
 
 export default function RootLayout({ children }) {
