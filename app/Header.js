@@ -6,7 +6,7 @@ import { HiOutlineShoppingBag } from 'react-icons/hi2'
 
 const Header = () => {
   return (
-    <header className=' sticky top-0 left-0 w-full bg-gradient-to-r from-slate-50/90 to-gray-50/90 z-50'>
+    <header className=' sticky top-0 left-0 w-full backdrop-blur-sm bg-gradient-to-r from-slate-50/90 to-gray-50/90 z-50'>
         <div className="container mx-auto  flex justify-center items-center flex-wrap">
             <div className="px-10" >
                 <Link href='/'>

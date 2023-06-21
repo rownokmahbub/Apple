@@ -1,38 +1,42 @@
 'use client'
 import React, { Component } from "react";
 import Slider from "react-slick";
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 export default class Carousal extends Component {
   render() {
     const settings = {
-      className: "center",
-      centerMode: true,
+      
       infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 3,
-      speed: 500
+      slidesToShow: 1,
+      centerMode: true,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true
     };
     return (
       <div>
-        <h2>Center Mode</h2>
+      
+
         <Slider {...settings}>
-          <div>
-        y
+          <div className="w-full">
+          <img className="w-full " src="assets/c1.jpeg" alt="carousal" />
           </div>
           <div>
-            <h3>2</h3>
+          <img className="w-full " src="assets/c2.jpeg" alt="carousal" />
           </div>
           <div>
-            <h3>3</h3>
+          <img className="w-full " src="assets/c3.jpeg" alt="carousal" />
           </div>
           <div>
-            <h3>4</h3>
+          <img className="w-full " src="assets/c4.jpeg" alt="carousal" />
           </div>
           <div>
-            <h3>5</h3>
+          <img className="w-full " src="assets/c5.jpeg" alt="carousal" />
           </div>
           <div>
-            <h3>6</h3>
+          <img className="w-full " src="assets/c6.jpeg" alt="carousal" />
           </div>
         </Slider>
       </div>
