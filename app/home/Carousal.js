@@ -14,6 +14,7 @@ export default class Carousal extends Component {
       autoplay: true,
       autoplaySpeed: 3000,
       arrows:false,
+      swipe:true,
       dots: true,
       pauseOnHover: true
     };
