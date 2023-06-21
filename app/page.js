@@ -16,8 +16,7 @@ export default function Home() {
     <Hero2/>
     <Iwatch/>
     <Accessories/>
-    <Accessories> 
-    </Accessories>
+ 
     <Carousal/>
     <Article/>
   </>
